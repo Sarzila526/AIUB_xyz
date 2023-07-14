@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Verifier Dashboard</title>
+  <link rel="stylesheet" type="text/css" href="style-ver-dash.css">
+</head>
+<body>
+  <header>
+    <h1>Verifier Dashboard</h1>
+  </header>
+
+  <section id="search-certificate-section">
+    <h2>Search Existance of Certificate Number</h2>
+    <div class="search-bar">
+      <input type="text" id="certificate-search-input" placeholder="Enter certificate number">
+      <button type="button" id="certificate-search-button">Search</button>
+    </div>
+    <p id="certificate-search-result"></p>
+  </section>
+
+  <section id="search-section">
+    <h2>Search Products</h2>
+    <div class="search-bar">
+      <input type="text" id="search-input" placeholder="Enter description, price, or certificate number">
+      <button type="button" id="search-button">Search</button>
+    </div>
+  </section>
+
+  <section id="product-list-section">
+    <h2>Product List</h2>
+    <button type="button" id="display-products-button">Display Products</button>
+    <ul id="product-list"></ul>
+  </section>
+
+  <section id="navigation-section">
+    <div class="navigation-buttons">
+      <a href="index.html">Homepage</a>
+    </div>
+  </section>
+
+  <script src="ver-dash.js"></script>
+</body>
+</html>

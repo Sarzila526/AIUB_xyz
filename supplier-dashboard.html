@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Supplier Dashboard</title>
+  <link rel="stylesheet" type="text/css" href="style-supp-dash.css">
+</head>
+<body>
+  <header>
+    <h1>Supplier Dashboard</h1>
+  </header>
+
+  <section id="product-form-section">
+    <h2>Add a Product</h2>
+    <form id="product-form" method="POST" enctype="multipart/form-data">
+      <div class="form-group">
+        <label for="product-image">Product Image:</label>
+        <input type="file" id="product-image" name="productImage" accept="image/*" required>
+      </div>
+      <div class="form-group">
+        <label for="product-price">Price:</label>
+        <input type="number" id="product-price" name="productPrice" required>
+      </div>
+      <div class="form-group">
+        <label for="product-description">Description:</label>
+        <textarea id="product-description" name="productDescription" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="artwork-name">Artwork Name:</label>
+        <input type="text" id="artwork-name" name="artworkName" required>
+      </div>
+      <div class="form-actions">
+        <input type="submit" value="Add Product">
+        <button type="button" id="btn-delete-all">Delete All Products</button>
+      </div>
+    </form>
+  </section>
+
+  <section id="product-list-section">
+    <h2>Product List</h2>
+    <ul id="product-list"></ul>
+  </section>
+
+  <section id="order-section">
+    <h2>Orders</h2>
+    <ul id="order-list"></ul>
+  </section>
+
+  <section id="navigation-section">
+    <div class="navigation-buttons">
+      <a href="index.html">Homepage</a>
+      <a href="supplier-login.html">Login</a>
+    </div>
+  </section>
+
+  <script src="supp-dash.js"></script>
+</body>
+</html>

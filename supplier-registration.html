@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Supplier Registration</title>
+  <link rel="stylesheet" type="text/css" href="style-supp-reg.css">
+</head>
+<body>
+  <header>
+    <h1>Supplier Registration</h1>
+  </header>
+
+  <section id="registration-section">
+    <h2>Create an Account</h2>
+    <form id="registration-form" method="POST">
+      <div class="form-group">
+        <label for="wallet-address">Wallet Address:</label>
+        <input type="text" id="wallet-address" name="walletAddress" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-actions">
+        <input type="submit" value="Register">
+        <a href="index.html">Homepage</a>
+        <a href="supplier-login.html">Login</a>
+      </div>
+    </form>
+  </section>
+
+  <script src="supp-reg.js"></script>
+</body>
+</html>

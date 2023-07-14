@@ -1,0 +1,93 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 28px;
+  }
+  
+  section {
+    margin: 50px 0;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #search-input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  #search-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #search-button:hover {
+    background-color: #555;
+  }
+  
+  #product-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .product-details {
+    margin-bottom: 20px;
+  }
+  
+  .product-details p {
+    margin: 5px 0;
+  }
+  
+  .btn-order {
+    margin-left: 10px;
+  }
+  
+  #navigation-section {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .navigation-buttons a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .navigation-buttons a:hover {
+    background-color: #555;
+  }
+  
